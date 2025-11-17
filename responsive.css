@@ -17,4 +17,30 @@
 
   .profile-image img {
     width: 7em; /* smaller avatar on mobile */
+
+  }
+  /* Stack gallery items vertically */
+  .gallery-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5em;
+    margin: 0;
+  }
+
+  .gallery-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .gallery-item {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
