@@ -44,3 +44,12 @@
     height: auto;
     display: block;
   }
+/* Footer adjustments */
+  .portfolio-footer {
+    padding: 2em 0;
+  }
+
+  .portfolio-footer p {
+    font-size: 0.9em;
+  }
+}
