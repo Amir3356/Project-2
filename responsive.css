@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+  /* Make text slightly smaller and more readable */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  /* Container spacing */
+  .portfolio-container {
+    padding: 0 1em;
+  }
+
+  /* Header adjustments */
+  .profile-header {
+    padding: 3em 0 2em 0;
+  }
+
+  .profile-image img {
+    width: 7em; /* smaller avatar on mobile */
+  }
